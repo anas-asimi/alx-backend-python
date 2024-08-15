@@ -6,6 +6,6 @@
 
 def sum_list(input_list: list[float]) -> float:
     n: float = 0
-    for x in list:
+    for x in input_list:
         n += x
     return n

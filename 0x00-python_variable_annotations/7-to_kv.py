@@ -3,8 +3,10 @@
 7-to_kv.py
 """
 
+from typing import Union, Tuple
 
-def to_kv(k: str, v: int | float) -> tuple[str, int]:
+
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, int]:
     """_summary_
 
     Args:

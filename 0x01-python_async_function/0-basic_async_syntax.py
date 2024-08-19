@@ -6,7 +6,7 @@ from random import random
 import asyncio
 
 
-async def wait_random(max_delay: int = 10):
+async def wait_random(max_delay: int = 10) -> float:
     """
     wait_random
     Args:
